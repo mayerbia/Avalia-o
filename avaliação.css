@@ -1,0 +1,54 @@
+. avaliação {
+	fundo :  # 6495ED ;
+}
+
+.avaliacao{
+	background: #6495ED;
+}
+
+h1{
+	text-align: center;
+	color: #0000FF;
+}
+
+.praticas{
+	display: inline-block;
+	background: #ADD8E6;
+}
+
+h2{
+	text-align: center;
+	color:#800000;
+}
+.itens{
+	background: #87CEFA;
+}
+
+.itens li{
+	display: inline-block;
+	text-align: center;
+
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	border:2px solid #FF0000;
+	border-radius: 10px;
+	border-style: dotted;
+}
+
+#banner{
+	width: 10%;
+}
+
+.itens li:hover{
+	border-color: #C78C19;
+	}
+
+.itens li:active{
+		border-color: #088C19;
+	}
+
+.itens li:hover h2{
+		text-transform: uppercase;
+		font-size: 40px;
+	}
